@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+body{
+	background-color:#E9EBEE;
+}
+
+#wrapper_login{
+
+	> .row{
+		height:100%;
+
+		form{
+			background-color:#ffffff;
+			border:1px solid rgba(0,0,0,0.15);
+			border-radius:4px;
+			padding:15px 15px 15px 15px;
+
+			.form-group{
+
+				&.has-danger{
+
+					.form-control{
+						border-color: #d9534f;
+					}
+
+					.form-control-feedback{
+						color: #d9534f;
+					}
+
+				}
+
+			}
+
+			button{
+
+				&#ingresar{
+					width:100%;
+				}
+
+			}//Fin button
+
+			.fa{
+
+				&.fa-circle-o-notch{
+					color:#0275D8;
+					font-size:35px;
+				}
+
+			}//Fin .fa
+
+			.alert{
+				margin:0px;
+				margin-top:15px;
+				padding:5px 5px 5px 5px;
+				text-align:center;
+
+				.fa{
+					color:#3C763D;
+					font-size:1em;
+
+				}//Fin .fa
+
+			}//Fin .alert
+
+		}//Fin form
+
+	}//Fin .row
+
+}//Fin #wrapper_login

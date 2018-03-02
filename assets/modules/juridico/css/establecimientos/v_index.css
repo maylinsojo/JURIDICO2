@@ -1,0 +1,276 @@
+@charset "utf-8";
+#menu_principal {
+  margin-top: 30px;
+  padding: 0px;
+}
+#menu_principal > .row {
+  margin: 0px;
+  width: 100%;
+}
+#menu_principal > .row > div[class^="col-"] {
+  padding: 0px;
+}
+#menu_principal > .row .fa.fa-circle-o-notch {
+  font-size: 1em;
+}
+#menu_principal > .row .fa.fa-times-circle {
+  color: #D9534F;
+}
+#menu_principal > .row .fa.fa-times-circle:hover {
+  cursor: pointer;
+}
+#menu_principal > .row #sugerencias {
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+}
+#menu_principal > .row #sugerencias .dropdown-item {
+  padding: 5px 5px 5px 5px;
+  transition: all 0.2s;
+  width: 100%;
+}
+#menu_principal > .row #sugerencias .dropdown-item:hover {
+  cursor: pointer;
+}
+.wrapper_ee {
+  margin-top: 25px;
+  text-align: center;
+}
+.wrapper_ee .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+.wrapper_ee .table .fa:hover {
+  color: #0275D8;
+  cursor: pointer;
+}
+.wrapper_ee .table .fa.fa-search {
+  transition: all ease;
+}
+#modal_nuevo_establecimiento .modal-header {
+  padding: 8px 8px 8px 8px;
+}
+#modal_nuevo_establecimiento .modal-body {
+  padding: 8px 8px 8px 8px;
+}
+#modal_nuevo_establecimiento .modal-body .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_nuevo_establecimiento .modal-footer {
+  padding: 8px 8px 8px 8px;
+}
+#modal_nuevo_establecimiento .modal-footer .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_nuevo_establecimiento .modal-footer .alert {
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  width: 100%;
+}
+#modal_nuevo_establecimiento .modal-footer .alert button {
+  margin-top: 5px;
+  padding: 5px 5px 5px 5px;
+}
+#modal_nuevo_establecimiento .modal-footer button {
+  padding: 5px 5px 5px 5px;
+}
+#modal_editar_establecimiento .modal-header {
+  padding: 8px 8px 8px 8px;
+}
+#modal_editar_establecimiento .modal-body .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_editar_establecimiento .modal-body .alert {
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  width: 100%;
+}
+#modal_editar_establecimiento .modal-footer {
+  padding: 8px 8px 8px 8px;
+}
+#modal_editar_establecimiento .modal-footer .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_editar_establecimiento .modal-footer .alert {
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  width: 100%;
+}
+#modal_editar_establecimiento .modal-footer .alert button {
+  margin-top: 5px;
+  padding: 5px 5px 5px 5px;
+}
+#modal_editar_establecimiento .modal-footer button {
+  padding: 5px 5px 5px 5px;
+}
+#modal_contactos .modal-dialog {
+  max-width: 800px;
+}
+#modal_contactos .modal-header {
+  padding: 8px 8px 8px 8px;
+}
+#modal_contactos .modal-body .fa:hover {
+  cursor: pointer;
+}
+#modal_contactos .modal-body .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_contactos .modal-body .fa.fa-trash {
+  transition: all 0.2s;
+}
+#modal_contactos .modal-body .fa.fa-trash:hover {
+  color: #c9302c;
+}
+#modal_contactos .modal-body .fa.fa-pencil {
+  transition: all 0.2s;
+}
+#modal_contactos .modal-body .fa.fa-pencil:hover {
+  color: #F0AD4E;
+}
+#modal_contactos .modal-body .alert {
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  width: 100%;
+}
+#modal_contactos .modal-body .table thead tr {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#modal_contactos .modal-body .table thead tr th {
+  padding: 3px 3px 3px 3px;
+}
+#modal_contactos .modal-body .table tbody tr td .fa {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+#modal_contactos .modal-footer {
+  padding: 8px 8px 8px 8px;
+}
+#modal_contactos .modal-footer .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_contactos .modal-footer .alert {
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  width: 100%;
+}
+#modal_contactos .modal-footer .alert button {
+  margin-top: 5px;
+  padding: 5px 5px 5px 5px;
+}
+#modal_contactos .modal-footer button {
+  padding: 5px 5px 5px 5px;
+}
+#modal_cursos .modal-dialog {
+  max-width: 800px;
+}
+#modal_cursos .modal-header {
+  padding: 8px 8px 8px 8px;
+}
+#modal_cursos .modal-body .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_cursos .modal-body .alert {
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  width: 100%;
+}
+#modal_cursos .modal-body #form_nivel_academico .form-group label {
+  font-weight: bolder;
+  text-align: left !important;
+  width: 100%;
+}
+#modal_cursos .modal-body #form_nivel_academico .form-group .form-control {
+  width: 100%;
+}
+#modal_cursos .modal-body .table {
+  width: 100%;
+}
+#modal_cursos .modal-body .table thead {
+  display: block;
+}
+#modal_cursos .modal-body .table thead tr {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 35px;
+}
+#modal_cursos .modal-body .table thead tr th {
+  display: block;
+  float: left;
+  height: 35px;
+  padding: 3px 3px 3px 3px;
+}
+#modal_cursos .modal-body .table tbody {
+  display: block;
+  height: 250px !important;
+  overflow-y: auto !important;
+  width: 100%;
+}
+#modal_cursos .modal-body .table tbody tr {
+  display: block;
+  min-height: 49px;
+}
+#modal_cursos .modal-body .table tbody tr td {
+  display: block;
+  float: left;
+}
+#modal_cursos .modal-body .table tbody tr td .alert {
+  margin: 0px;
+  padding: 1px 1px 1px 1px;
+  text-align: center;
+  width: 100%;
+}
+#modal_cursos .modal-body .table tbody tr td .fa {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+#modal_cursos .modal-body .table tbody tr td .fa:hover {
+  cursor: pointer;
+}
+#modal_cursos .modal-body .table tbody tr td .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_cursos .modal-body .table tbody tr td .fa.fa-trash {
+  transition: all 0.2s;
+}
+#modal_cursos .modal-body .table tbody tr td .fa.fa-trash:hover {
+  color: #c9302c;
+}
+#modal_cursos .modal-body .table tbody tr td .fa.fa-pencil {
+  transition: all 0.2s;
+}
+#modal_cursos .modal-body .table tbody tr td .fa.fa-pencil:hover {
+  color: #F0AD4E;
+}
+#modal_cursos .modal-footer {
+  padding: 8px 8px 8px 8px;
+}
+#modal_cursos .modal-footer .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_cursos .modal-footer .alert {
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  width: 100%;
+}
+#modal_cursos .modal-footer .alert button {
+  margin-top: 5px;
+  padding: 5px 5px 5px 5px;
+}
+#modal_cursos .modal-footer button {
+  padding: 5px 5px 5px 5px;
+}

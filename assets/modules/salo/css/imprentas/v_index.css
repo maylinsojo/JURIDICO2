@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+#menu_principal {
+  margin-top: 30px;
+  padding: 0px;
+}
+#menu_principal > .row {
+  margin: 0px;
+  width: 100%;
+}
+#menu_principal > .row > div[class^="col-"] {
+  padding: 0px;
+}
+#menu_principal > .row .fa.fa-circle-o-notch {
+  font-size: 1em;
+}
+#menu_principal > .row .fa.fa-times-circle {
+  color: #D9534F;
+}
+#menu_principal > .row .fa.fa-times-circle:hover {
+  cursor: pointer;
+}
+#menu_principal > .row #sugerencias {
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+}
+#menu_principal > .row #sugerencias .dropdown-item {
+  padding: 5px 5px 5px 5px;
+  transition: all 0.2s;
+  width: 100%;
+}
+#menu_principal > .row #sugerencias .dropdown-item:hover {
+  cursor: pointer;
+}
+#menu_principal > .row #sugerencias .dropdown-item .avatar {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  display: inline-block;
+  height: 35px;
+  margin-right: 3px;
+  width: 35px;
+}
+.wrapper_imprentas {
+  margin-top: 25px;
+  text-align: center;
+}
+.wrapper_imprentas .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+.wrapper_imprentas .table .avatar {
+  height: 30px;
+  width: 30px;
+}
+.wrapper_imprentas .table .fa.fa-search {
+  margin-right: 5px;
+  transition: all ease;
+}
+.wrapper_imprentas .table .fa.fa-search:hover {
+  color: #0275D8;
+  cursor: pointer;
+}
+#modal_nueva_imprenta .modal-header {
+  padding: 8px 8px 8px 8px;
+}
+#modal_nueva_imprenta .modal-footer {
+  padding: 8px 8px 8px 8px;
+}
+#modal_nueva_imprenta .modal-footer .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_nueva_imprenta .modal-footer .alert {
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  width: 100%;
+}
+#modal_nueva_imprenta .modal-footer .alert button {
+  margin-top: 5px;
+  padding: 5px 5px 5px 5px;
+}
+#modal_nueva_imprenta .modal-footer button {
+  padding: 5px 5px 5px 5px;
+}
+#modal_editar_imprenta .modal-header {
+  padding: 8px 8px 8px 8px;
+}
+#modal_editar_imprenta .modal-body .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_editar_imprenta .modal-body .alert {
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  width: 100%;
+}
+#modal_editar_imprenta .modal-footer {
+  padding: 8px 8px 8px 8px;
+}
+#modal_editar_imprenta .modal-footer .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_editar_imprenta .modal-footer .alert {
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  width: 100%;
+}
+#modal_editar_imprenta .modal-footer .alert button {
+  margin-top: 5px;
+  padding: 5px 5px 5px 5px;
+}
+#modal_editar_imprenta .modal-footer button {
+  padding: 5px 5px 5px 5px;
+}
+#modal_imprenta_imprenta .modal-header {
+  padding: 8px 8px 8px 8px;
+}
+#modal_imprenta_imprenta .modal-body .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_imprenta_imprenta .modal-body .alert {
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  width: 100%;
+}
+#modal_imprenta_imprenta .modal-footer {
+  padding: 8px 8px 8px 8px;
+}
+#modal_imprenta_imprenta .modal-footer .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_imprenta_imprenta .modal-footer .alert {
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  width: 100%;
+}
+#modal_imprenta_imprenta .modal-footer .alert button {
+  margin-top: 5px;
+  padding: 5px 5px 5px 5px;
+}
+#modal_imprenta_imprenta .modal-footer button {
+  padding: 5px 5px 5px 5px;
+}
+#modal_orden_imprenta .modal-dialog {
+  max-width: 1200px;
+}
+#modal_orden_imprenta .modal-dialog .modal-header {
+  padding: 8px 8px 8px 8px;
+}
+#modal_orden_imprenta .modal-dialog .modal-body #form_orden_imprenta .row.fila_item_desp_titulo .form-group,
+#modal_orden_imprenta .modal-dialog .modal-body #form_orden_imprenta .row.fila_item_desp .form-group {
+  margin: 0px;
+}
+#modal_orden_imprenta .modal-dialog .modal-body #form_orden_imprenta #wrapper_establecimiento .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 15px;
+  position: absolute;
+  right: 5px;
+  top: 12px;
+}
+#modal_orden_imprenta .modal-dialog .modal-body #form_orden_imprenta #wrapper_establecimiento #sugerencias {
+  width: 100%;
+}
+#modal_orden_imprenta .modal-dialog .modal-body #form_orden_imprenta #wrapper_establecimiento #sugerencias .dropdown-item {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#modal_orden_imprenta .modal-dialog .modal-body #form_orden_imprenta #wrapper_establecimiento #sugerencias .dropdown-item:hover {
+  cursor: pointer;
+}
+#modal_orden_imprenta .modal-dialog .modal-body #form_orden_imprenta #wrapper_establecimiento #sugerencias .dropdown-item > div {
+  white-space: normal;
+}
+#modal_orden_imprenta .modal-dialog .modal-body #form_orden_imprenta .form-group label {
+  width: 100%;
+}
+#modal_orden_imprenta .modal-dialog .modal-body #form_orden_imprenta .form-group .fa {
+  font-size: 22px;
+  transition: all 0.4s;
+}
+#modal_orden_imprenta .modal-dialog .modal-body #form_orden_imprenta .form-group .fa:hover {
+  cursor: pointer;
+}
+#modal_orden_imprenta .modal-dialog .modal-body #form_orden_imprenta .form-group .fa.fa-plus {
+  color: #5cb85c;
+  margin-top: 8px;
+}
+#modal_orden_imprenta .modal-dialog .modal-body #form_orden_imprenta .form-group .fa.fa-plus:hover {
+  color: #419641;
+}
+#modal_orden_imprenta .modal-dialog .modal-body #form_orden_imprenta .form-group .fa.fa-times {
+  color: #dc3545;
+  margin-top: 8px;
+}
+#modal_orden_imprenta .modal-dialog .modal-body #form_orden_imprenta .form-group .fa.fa-times:hover {
+  color: #c82333;
+}
+#modal_orden_imprenta .modal-dialog .modal-footer {
+  padding: 8px 8px 8px 8px;
+}
+#modal_orden_imprenta .modal-dialog .modal-footer .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_orden_imprenta .modal-dialog .modal-footer .alert {
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  width: 100%;
+}
+#modal_orden_imprenta .modal-dialog .modal-footer .alert button {
+  margin-top: 5px;
+  padding: 5px 5px 5px 5px;
+}
+#modal_orden_imprenta .modal-dialog .modal-footer button {
+  padding: 5px 5px 5px 5px;
+}
+/* CSS Document */

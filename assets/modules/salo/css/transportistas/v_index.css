@@ -1,0 +1,172 @@
+@charset "utf-8";
+#menu_principal {
+  margin-top: 30px;
+  padding: 0px;
+}
+#menu_principal > .row {
+  margin: 0px;
+  width: 100%;
+}
+#menu_principal > .row > div[class^="col-"] {
+  padding: 0px;
+}
+#menu_principal > .row .fa.fa-circle-o-notch {
+  font-size: 1em;
+}
+#menu_principal > .row .fa.fa-times-circle {
+  color: #D9534F;
+}
+#menu_principal > .row .fa.fa-times-circle:hover {
+  cursor: pointer;
+}
+#menu_principal > .row #sugerencias {
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+}
+#menu_principal > .row #sugerencias .dropdown-item {
+  padding: 5px 5px 5px 5px;
+  transition: all 0.2s;
+  width: 100%;
+}
+#menu_principal > .row #sugerencias .dropdown-item:hover {
+  cursor: pointer;
+}
+.wrapper_transportistas {
+  margin-top: 25px;
+  text-align: center;
+}
+.wrapper_transportistas .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+.wrapper_transportistas .table .fa:hover {
+  color: #0275D8;
+  cursor: pointer;
+}
+.wrapper_transportistas .table .fa.fa-search {
+  transition: all ease;
+}
+#modal_nueva_transportista .modal-header {
+  padding: 8px 8px 8px 8px;
+}
+#modal_nueva_transportista .modal-body {
+  padding: 8px 8px 8px 8px;
+}
+#modal_nueva_transportista .modal-body .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_nueva_transportista .modal-footer {
+  padding: 8px 8px 8px 8px;
+}
+#modal_nueva_transportista .modal-footer .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_nueva_transportista .modal-footer .alert {
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  width: 100%;
+}
+#modal_nueva_transportista .modal-footer .alert button {
+  margin-top: 5px;
+  padding: 5px 5px 5px 5px;
+}
+#modal_nueva_transportista .modal-footer button {
+  padding: 5px 5px 5px 5px;
+}
+#modal_editar_transportista .modal-header {
+  padding: 8px 8px 8px 8px;
+}
+#modal_editar_transportista .modal-body .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_editar_transportista .modal-body .alert {
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  width: 100%;
+}
+#modal_editar_transportista .modal-footer {
+  padding: 8px 8px 8px 8px;
+}
+#modal_editar_transportista .modal-footer .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_editar_transportista .modal-footer .alert {
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  width: 100%;
+}
+#modal_editar_transportista .modal-footer .alert button {
+  margin-top: 5px;
+  padding: 5px 5px 5px 5px;
+}
+#modal_editar_transportista .modal-footer button {
+  padding: 5px 5px 5px 5px;
+}
+#modal_conductores .modal-dialog {
+  max-width: 800px;
+}
+#modal_conductores .modal-header {
+  padding: 8px 8px 8px 8px;
+}
+#modal_conductores .modal-body .fa:hover {
+  cursor: pointer;
+}
+#modal_conductores .modal-body .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_conductores .modal-body .fa.fa-trash {
+  transition: all 0.2s;
+}
+#modal_conductores .modal-body .fa.fa-trash:hover {
+  color: #c9302c;
+}
+#modal_conductores .modal-body .fa.fa-pencil {
+  transition: all 0.2s;
+}
+#modal_conductores .modal-body .fa.fa-pencil:hover {
+  color: #F0AD4E;
+}
+#modal_conductores .modal-body .alert {
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  width: 100%;
+}
+#modal_conductores .modal-body .table thead tr {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#modal_conductores .modal-body .table thead tr th {
+  padding: 3px 3px 3px 3px;
+}
+#modal_conductores .modal-body .table tbody tr td .fa {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+#modal_conductores .modal-footer {
+  padding: 8px 8px 8px 8px;
+}
+#modal_conductores .modal-footer .fa.fa-circle-o-notch {
+  color: #0275D8;
+  font-size: 35px;
+}
+#modal_conductores .modal-footer .alert {
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  width: 100%;
+}
+#modal_conductores .modal-footer .alert button {
+  margin-top: 5px;
+  padding: 5px 5px 5px 5px;
+}
+#modal_conductores .modal-footer button {
+  padding: 5px 5px 5px 5px;
+}

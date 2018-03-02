@@ -1,0 +1,16 @@
+dmolina101@gmail.com
+17671373
+
+
+
+Sp_ins_calificacion
+F_calculo_nivel
+
+
+
+id_usuario	1
+correo	may@ff.com
+clave	MTIzNDU2Nzg5
+tipo_usu	1
+nombre	jjioj dddd lklk s
+correo2	mk@gmail.com
