@@ -226,6 +226,8 @@ class m_wds_usuarios extends CI_Model
 	*/
 	public function registrar_usuario($datos){
 
+		return(array($datos));
+		exit();
 		//Query para el tipo de usuario
 	    $sql = "SELECT COUNT(1) existe
 		          FROM usuario u
@@ -281,8 +283,10 @@ class m_wds_usuarios extends CI_Model
 				$mensaje = str_replace("#CORREO#",$datos['correo'],$mensaje);
 				$mensaje = str_replace("#CLAVE#",base64_decode($datos['clave']),$mensaje);
 
-				$envio_correo = $this->enviar_correo($mensaje, $asunto, $quien_envia, $destinaratios);
+				//$envio_correo = $this->enviar_correo($mensaje, $asunto, $quien_envia, $destinaratios);
 
+				$envio_correo['CODIGO_RESPUESTA'] = 1;
+				
 				//Evaluamos
 				if($envio_correo['CODIGO_RESPUESTA'] == 1){
 
@@ -299,7 +303,7 @@ class m_wds_usuarios extends CI_Model
 
 					$respuesta = array(
 									   'CODIGO_RESPUESTA'  => 0,
-									   'MENSAJE_RESPUESTA' => 'Error al enviar el correo!'
+									   'MENSAJE_RESPUESTA' => 'Error al enviar el correox!'
 									  );
 
 				}//Fin del if

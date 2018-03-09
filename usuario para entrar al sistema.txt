@@ -14,3 +14,24 @@ clave	MTIzNDU2Nzg5
 tipo_usu	1
 nombre	jjioj dddd lklk s
 correo2	mk@gmail.com
+
+
+
+<div id="scrollToHere">
+    Contenido del div a donde me quiero mover
+</div>
+
+
+$("#miBoton").click(function () {
+    $('html,body').animate({
+        scrollTop: $("#scrollToHere").offset().top
+    }, 2000);
+});
+
+
+148
+MTIzNDU2
+(111) 111-11-11
+148*1*(222) 222-22-22*0*
+1
+sp_upd_telefono

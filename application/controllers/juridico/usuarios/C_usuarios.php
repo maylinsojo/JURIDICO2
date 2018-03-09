@@ -148,6 +148,8 @@ class c_usuarios extends CI_Controller
 	*/
 	public function registrar_usuario(){
 
+		/*echo "hola";
+		exit();*/
 		//Indices a evaluar
 		$indices = array('id_usuario','correo','clave','tipo_usu','nombre','correo2');
 
